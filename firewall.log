@@ -1,0 +1,4 @@
+2026-10-16 11:37:35,454 - Added rule: Rule(action='block', ip='10.0.0.0/8', port=None, protocol=None)
+2026-10-16 11:39:05,665 - BLOCK packet ip=10.1.2.3 port=443 proto=tcp matched rule Rule(action='block', ip='10.0.0.0/8', port=None, protocol=None)
+2026-10-16 11:39:35,403 - Added rule: Rule(action='allow', ip=None, port='22', protocol='tcp')
+2026-10-16 11:39:51,524 - ALLOW packet ip=1.1.1.1 port=22 proto=tcp matched rule Rule(action='allow', ip=None, port='22', protocol='tcp')
